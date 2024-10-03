@@ -6,6 +6,9 @@
 *.suo
 *.userprefs
 
+# Idea directories 
+.idea/
+
 # Build directories
 [Bb]uild/
 [Bb]uilds/
