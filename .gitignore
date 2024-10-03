@@ -1,0 +1,24 @@
+# User-specific files
+*.user
+*.sln
+*.csproj
+*.pidb
+*.suo
+*.userprefs
+
+# Build directories
+[Bb]uild/
+[Bb]uilds/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Mm]emoryCaptures/
+
+# Asset Store tools
+[Aa]ssets/AssetStoreTools*
+
+# Logs
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
