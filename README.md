@@ -16,4 +16,4 @@ Embark on an adventure in this 2D Unity mini-game, where the player must navigat
 
 **Escape The Maze** est mon premier projet de jeu 2D développé sur le campus Ynov.
 
-Partez à l'aventure dans ce mini-jeu 2D Unity, où le joueur doit naviguer à travers un labyrinthe aved des ennemis. Votre mission est de vous échapper du labyrinthe et de trouver votre ami qui est piégé à l'intérieur. Explorez différents chemins tout en évitant les créatures hostiles. Pouvez-vous conquérir le labyrinthe et sauver votre ami avant que les ennemis ne vous attrapent ?
+Partez à l'aventure dans ce mini-jeu 2D Unity, où le joueur doit naviguer à travers un labyrinthe avez des ennemis. Votre mission est de vous échapper du labyrinthe et de trouver votre ami qui est piégé à l'intérieur. Explorez différents chemins tout en évitant les créatures hostiles. Pouvez-vous conquérir le labyrinthe et sauver votre ami avant que les ennemis ne vous attrapent ?
