@@ -53684,12 +53684,12 @@ GameObject:
   - component: {fileID: 1855905587}
   - component: {fileID: 1855905586}
   m_Layer: 0
-  m_Name: MazeGenerator
+  m_Name: MazeGenerator (unused)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1855905586
 MonoBehaviour:
   m_ObjectHideFlags: 0
