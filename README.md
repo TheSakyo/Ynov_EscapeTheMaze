@@ -10,7 +10,7 @@ Embark on an adventure in this 2D Unity mini-game, where the player must navigat
 ---
 ---
 > VERSION FRANÇAISE 
-# Escape The Maze - Jeu Unity
+# Échappez vous du labyrinthe - Jeu Unity
 
 ## Aperçu
 
