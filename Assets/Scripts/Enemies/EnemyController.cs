@@ -110,7 +110,7 @@ namespace Enemies {
         private void OnTriggerEnter2D(Collider2D other) {
 
             /*
-             * Check if the object collides with the player,
+             * Check if the enemy's collides with the player,
              * then reset all character's positions and load GameOver scene
              */
             if(other.CompareTag("Player")) {

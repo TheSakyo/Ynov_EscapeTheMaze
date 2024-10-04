@@ -63,7 +63,7 @@ namespace Friends {
         private void OnTriggerEnter2D(Collider2D other) {
 
             /*
-             * Check if the object collides with the player,
+             * Check if friend's collide with the player,
              * then reset all character's positions and load finish scene
              */
             if(other.CompareTag("Player")) {
