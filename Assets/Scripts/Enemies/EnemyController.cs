@@ -19,10 +19,10 @@ namespace Enemies {
         private Transform player; // Reference to the player GameObject
 
         [SerializeField]
-        private float followDistance = 5.0f; // Distance within which the enemies will follow the player
+        private float followDistance; // Distance within which the enemies will follow the player
 
         [SerializeField]
-        private float speed = 5.0f; // Speed at which the object follows the player
+        private float speed; // Speed at which the object follows the player
 
         /***********************/
 

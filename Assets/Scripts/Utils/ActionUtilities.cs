@@ -8,11 +8,10 @@ namespace Utils
      * <summary>
      * Provides utility methods for actions in the game, particularly focusing on resetting
      * Non-Player Characters (NPCs) and the player character to their initial positions.
-     * This abstract class serves as a static container for action-related utility functions
-     * that can be used throughout the game without needing to instantiate an object.
+     * This static class serves as a static container for action-related utility functions
      * </summary>
      */
-    public abstract class ActionUtilities {
+    public static class ActionUtilities {
 
         /**
          * <summary>

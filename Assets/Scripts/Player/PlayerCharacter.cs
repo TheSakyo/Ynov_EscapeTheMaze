@@ -16,11 +16,11 @@ namespace Player {
 
         // The speed at which the player character moves.
         [SerializeField]
-        private float speed = 20.0f;
+        private float speed;
 
         // The smoothing factor for the player's movement. Higher values result in smoother transitions.
         [SerializeField]
-        float smoothing = 1.0f;
+        private float smoothing;
 
         // The initial position of the player
         private Vector3 _initialPosition;
@@ -63,7 +63,7 @@ namespace Player {
         public void Update() {
 
             //MovePosition(); Obsolete Functions
-            Move();
+            Move(); // Update Player Move
         }
 
         /******************************/
