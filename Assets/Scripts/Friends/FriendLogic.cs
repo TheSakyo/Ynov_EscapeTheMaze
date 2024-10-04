@@ -54,18 +54,18 @@ namespace Friends {
 
         /**
          * OnTriggerEnter Event method called when another collider enters the trigger collider attached to this GameObject.
-         * It resets the friend's position when the player collides with it.
+         * It resets friend's position when the player collides with it.
          * <param name="other">The collider that entered the trigger</param>
          */
         private void OnTriggerEnter2D(Collider2D other) {
 
             /*
              * Check if the object collides with the player,
-             * then reset all character's position's and load finish scene
+             * then reset all character's positions and load finish scene
              */
             if(other.CompareTag("Player")) {
 
-                // Reset all character's position's
+                // Reset all character's positions
                 ActionUtilities.ResetCharacters(null);
 
                 // Load the Finish scene

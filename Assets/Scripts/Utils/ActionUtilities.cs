@@ -2,8 +2,8 @@ using Enemies;
 using Player;
 using UnityEngine;
 
-namespace Utils
-{
+namespace Utils {
+
     /**
      * <summary>
      * Provides utility methods for actions in the game, particularly focusing on resetting

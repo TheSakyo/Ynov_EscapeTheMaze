@@ -15,7 +15,7 @@ namespace Player {
         /**********************/
 
         [SerializeField]
-        private GameObject player;
+        private GameObject player; // Reference to the player GameObject
 
         /*****************************/
         /****** START & UPDATING *****/

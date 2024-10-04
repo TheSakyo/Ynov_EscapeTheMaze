@@ -30,7 +30,7 @@ namespace Maps {
         [SerializeField]
         private int height;
 
-        /***************************/
+        /**********************/
 
         // 2D array representing the maze structure
         private Cell[,] _maze;
@@ -163,10 +163,10 @@ namespace Maps {
                 int newY = y + direction.y;
 
                 // If the new cell is within the maze bounds and has not been visited
-                if(IsInBounds(newX, newY) && !_maze[newX, newY].Visited) {
+                if(IsInBounds(newX, newY) && !_maze[newX, newY].IsVisited) {
 
                     // Mark the new cell as visited
-                    _maze[newX, newY].Visited = true;
+                    _maze[newX, newY].IsVisited = true;
 
                     // Recursively generate the paths from the new cell
                     GeneratePaths(newX, newY);

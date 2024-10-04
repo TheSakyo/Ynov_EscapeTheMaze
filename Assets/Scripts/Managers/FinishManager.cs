@@ -63,10 +63,16 @@ namespace Managers {
          */
         private void QuitGame() {
 
+            /*
+             * Quit literally the application if running on standalone
+             */
             #if UNITY_STANDALONE
                 Application.Quit();
             #endif
 
+            /*
+             * Change playing status if running in the editor (exit play mode)
+             */
             #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
             #endif

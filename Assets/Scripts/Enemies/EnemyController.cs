@@ -6,7 +6,7 @@ namespace Enemies {
 
     /**
      * <summary>
-     * Represents all the enemies character in the game, handling movement and interactions.
+     * Represents all enemies character in the game, handling movement and interactions.
      * </summary>
      */
     public class EnemyController : MonoBehaviour {
@@ -19,10 +19,10 @@ namespace Enemies {
         private Transform player; // Reference to the player GameObject
 
         [SerializeField]
-        private float followDistance; // Distance within which the enemy's will follow the player
+        private float followDistance; // Distance within which enemy's will follow the player
 
         [SerializeField]
-        private float speed; // Speed at which the enemy's follows the player
+        private float speed; // Speed at which enemy's follows the player
 
         /***********************/
 
@@ -47,12 +47,12 @@ namespace Enemies {
         /**
           * <summary>
           * Method called once per frame.
-          * It checks the distance between the enemy's and the player, and moves the enemy's if close enough.
+          * It checks the distance between enemy's and the player, and moves enemy's if close enough.
           * </summary>
           */
         void Update() {
 
-            // Calculate the distance between the enemy's and the player
+            // Calculate the distance between enemy's and the player
             float distance = Vector3.Distance(transform.position, player.position);
 
             // If the player is within follow distance, move towards the player
@@ -76,21 +76,21 @@ namespace Enemies {
 
         /**
          * <summary>
-         * Gets or sets the distance within which the enemy's will follow the player.
+         * Gets or sets the distance within which enemy's will follow the player.
          * </summary>
          */
         public float FollowDistance { get => followDistance; set => followDistance = value; }
 
         /**
          * <summary>
-         * Gets or sets the speed at which the enemy's follow the player.
+         * Gets or sets the speed at which enemy's follow the player.
          * </summary>
          */
         public float Speed { get => speed; set => speed = value; }
 
         /**
          * <summary>
-         * Gets the initial position of the enemy's.
+         * Gets the initial position of enemy's.
          * </summary>
          */
         public Vector3 InitialPosition { get => _initialPosition; }
@@ -101,18 +101,18 @@ namespace Enemies {
 
         /**
          * OnTriggerEnter Event method called when another collider enters the trigger collider attached to this GameObject.
-         * It resets the enemy's position when the player collides with it.
+         * It resets enemy's positions when the player collides with it.
          * <param name="other">The collider that entered the trigger</param>
          */
         private void OnTriggerEnter2D(Collider2D other) {
 
             /*
              * Check if the object collides with the player,
-             * then reset all character's position's and load GameOver scene
+             * then reset all character's positions and load GameOver scene
              */
             if(other.CompareTag("Player")) {
 
-                // Reset all character's position's
+                // Reset all character's positions
                 ActionUtilities.ResetCharacters(player);
 
                 // Load the GameOver scene

@@ -22,16 +22,13 @@ namespace Player {
         [SerializeField]
         private float smoothing;
 
-        // The initial position of the player
-        private Vector3 _initialPosition;
-
-        /***************************/
+        /**********************/
+        
+        private Vector3 _initialPosition; // The initial position of the player
 
         private Vector2 _targetPosition; // The target position the player is moving towards
         private Vector2 _velocity = Vector2.zero; // Used for smooth movement transitions
         private Vector2 _movementDirection = Vector2.zero; // Direction of movement
-
-        /***************************/
 
         private Rigidbody2D _rigideBody; // Reference to the Rigidbody2D component for physics-based movement
 

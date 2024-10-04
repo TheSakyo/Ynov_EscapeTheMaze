@@ -60,7 +60,7 @@ namespace Managers {
 
         /**
          * <summary>
-         * Restarts the game by loading the main game scene.
+         * Restart the game by loading the main game scene.
          * </summary>
          */
         private void RestartGame() {

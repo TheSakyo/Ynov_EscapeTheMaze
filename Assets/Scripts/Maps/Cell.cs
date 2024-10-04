@@ -11,12 +11,12 @@ namespace Maps {
     public class Cell {
 
         /***********************/
-        /****** PROPERTIES ****/
+        /****** PROPERTIES *****/
         /**********************/
 
-        private bool _visited; // Store the visited state of the cell
+        private bool _isVisited; // Store the visited state of the cell
 
-        /*******************************/
+        /******************************/
         /****** GETTERS & SETTERS *****/
         /******************************/
 
@@ -25,6 +25,6 @@ namespace Maps {
          * Gets or sets the visited state of the cell.
          * </summary>
          */
-        public bool Visited { get => _visited; set => _visited = value; }
+        public bool IsVisited { get => _isVisited; set => _isVisited = value; }
     }
 }
