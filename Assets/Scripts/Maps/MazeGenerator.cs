@@ -24,11 +24,11 @@ namespace Maps {
 
         // The width of the maze (number of cells).
         [SerializeField]
-        private int width = 21;
+        private int width;
 
         // The height of the maze (number of cells)
         [SerializeField]
-        private int height = 21;
+        private int height;
 
         /***************************/
 
