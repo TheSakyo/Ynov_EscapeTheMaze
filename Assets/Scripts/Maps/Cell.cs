@@ -14,7 +14,7 @@ namespace Maps {
         /****** PROPERTIES ****/
         /**********************/
 
-        private bool _visited; // Store the visited state of the cell.
+        private bool _visited; // Store the visited state of the cell
 
         /*******************************/
         /****** GETTERS & SETTERS *****/

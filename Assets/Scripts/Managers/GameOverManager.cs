@@ -16,7 +16,8 @@ namespace Managers {
         /**********************/
 
         // Reference to the button that allows the player to restart the game
-        public Button restartButton;
+        [SerializeField]
+        private Button restartButton;
 
         /*****************************/
         /****** START & UPDATING *****/

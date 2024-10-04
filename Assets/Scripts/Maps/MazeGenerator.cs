@@ -18,11 +18,11 @@ namespace Maps {
         /****** PROPERTIES *****/
         /**********************/
 
-        // The prefab used for the maze walls.
+        // The prefab used for the maze walls
         [SerializeField]
         private GameObject wallPrefab;
 
-        // The width of the maze (number of cells).
+        // The width of the maze (number of cells)
         [SerializeField]
         private int width;
 
@@ -94,27 +94,27 @@ namespace Maps {
          */
         private void GenerateMaze() {
 
-           // Initialize the 2D array for the maze with the specified width and height.
+           // Initialize the 2D array for the maze with the specified width and height
            _maze = new Cell[width, height];
 
-           // Loop through the width of the maze to create each column.
+           // Loop through the width of the maze to create each column
            for(int x = 0; x < width; x++) {
 
-             // Loop through the height of the maze to create each row.
+             // Loop through the height of the maze to create each row
               for(int y = 0; y < height; y++) {
 
-                 // Instantiate a new Cell object at the current (x, y) position.
+                 // Instantiate a new Cell object at the current (x, y) position
                  _maze[x, y] = new Cell();
 
-                 // Create a new Vector2 position for the wall at the current (x, y) coordinates.
+                 // Create a new Vector2 position for the wall at the current (x, y) coordinates
                  Vector2 position = new Vector2(x, y);
 
-                 // Instantiate a wall prefab at the calculated position with the default rotation.
+                 // Instantiate a wall prefab at the calculated position with the default rotation
                  Instantiate(wallPrefab, position, Quaternion.identity);
               }
            }
 
-           // Start generating paths in the maze from the top-left corner (0, 0).
+           // Start generating paths in the maze from the top-left corner (0, 0)
            GeneratePaths(0, 0);
         }
 

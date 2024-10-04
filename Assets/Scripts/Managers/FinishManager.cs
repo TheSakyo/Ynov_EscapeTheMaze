@@ -3,6 +3,11 @@ using UnityEngine.UI;
 
 namespace Managers {
 
+    /**
+     * <summary>
+     * Manages the Finish screen logic, allowing the player to quit the game.
+     * </summary>
+     */
     public class FinishManager : MonoBehaviour {
 
         /***********************/
@@ -61,6 +66,7 @@ namespace Managers {
             #if UNITY_STANDALONE
                 Application.Quit();
             #endif
+
             #if UNITY_EDITOR
                 UnityEditor.EditorApplication.isPlaying = false;
             #endif

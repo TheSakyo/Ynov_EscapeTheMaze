@@ -14,11 +14,11 @@ namespace Player {
         /****** PROPERTIES *****/
         /**********************/
 
-        // The speed at which the player character moves.
+        // The speed at which the player character moves
         [SerializeField]
         private float speed;
 
-        // The smoothing factor for the player's movement. Higher values result in smoother transitions.
+        // The smoothing factor for the player's movement. Higher values result in smoother transitions
         [SerializeField]
         private float smoothing;
 
@@ -62,7 +62,7 @@ namespace Player {
          */
         public void Update() {
 
-            //MovePosition(); Obsolete Functions
+            //MovePosition(); Obsolete Move Function
             Move(); // Update Player Move
         }
 
@@ -80,7 +80,7 @@ namespace Player {
         /**
          * <summary>
          * Gets or sets the smoothing factor for player movement.
-         * This property controls how smoothly the player transitions between movements
+         * This property controls how smoothly the player transitions between movements.
          * </summary>
          */
         public float Smoothing { get => smoothing; set => smoothing = value; }

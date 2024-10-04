@@ -19,10 +19,10 @@ namespace Enemies {
         private Transform player; // Reference to the player GameObject
 
         [SerializeField]
-        private float followDistance; // Distance within which the enemies will follow the player
+        private float followDistance; // Distance within which the enemy's will follow the player
 
         [SerializeField]
-        private float speed; // Speed at which the object follows the player
+        private float speed; // Speed at which the enemy's follows the player
 
         /***********************/
 
@@ -47,7 +47,7 @@ namespace Enemies {
         /**
           * <summary>
           * Method called once per frame.
-          * It checks the distance between the object and the player, and moves the object if close enough.
+          * It checks the distance between the enemy's and the player, and moves the enemy's if close enough.
           * </summary>
           */
         void Update() {
@@ -76,21 +76,21 @@ namespace Enemies {
 
         /**
          * <summary>
-         * Gets or sets the distance within which the enemies will follow the player.
+         * Gets or sets the distance within which the enemy's will follow the player.
          * </summary>
          */
         public float FollowDistance { get => followDistance; set => followDistance = value; }
 
         /**
          * <summary>
-         * Gets or sets the speed at which the enemies follow the player.
+         * Gets or sets the speed at which the enemy's follow the player.
          * </summary>
          */
         public float Speed { get => speed; set => speed = value; }
 
         /**
          * <summary>
-         * Gets the initial position of the enemies.
+         * Gets the initial position of the enemy's.
          * </summary>
          */
         public Vector3 InitialPosition { get => _initialPosition; }
@@ -101,7 +101,7 @@ namespace Enemies {
 
         /**
          * OnTriggerEnter Event method called when another collider enters the trigger collider attached to this GameObject.
-         * It resets the object's position when the player collides with it.
+         * It resets the enemy's position when the player collides with it.
          * <param name="other">The collider that entered the trigger</param>
          */
         private void OnTriggerEnter2D(Collider2D other) {

@@ -5,7 +5,7 @@ namespace Player {
     /**
      * <summary>
      * Controls the camera behavior, specifically following the player character
-     *  at a specified speed.
+     * at a specified speed.
      * </summary>
      */
     public class CameraController : MonoBehaviour {
