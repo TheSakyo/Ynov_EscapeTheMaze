@@ -52,7 +52,7 @@ namespace Enemies {
           */
         void Update() {
 
-            // Calculate the distance between the object and the player
+            // Calculate the distance between the enemy's and the player
             float distance = Vector3.Distance(transform.position, player.position);
 
             // If the player is within follow distance, move towards the player
