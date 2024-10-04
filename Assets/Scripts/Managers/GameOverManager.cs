@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
+/*
+ * This namespace represents the script's parent folder.
+ */
 namespace Managers {
 
     /**

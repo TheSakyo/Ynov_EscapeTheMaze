@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/*
+ * This namespace represents the script's parent folder.
+ */
 namespace Player {
 
     /**

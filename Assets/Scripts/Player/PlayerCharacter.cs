@@ -1,6 +1,9 @@
 using System;
 using UnityEngine;
 
+/*
+ * This namespace represents the script's parent folder.
+ */
 namespace Player {
 
     /**
@@ -23,7 +26,7 @@ namespace Player {
         private float smoothing;
 
         /**********************/
-        
+
         private Vector3 _initialPosition; // The initial position of the player
 
         private Vector2 _targetPosition; // The target position the player is moving towards

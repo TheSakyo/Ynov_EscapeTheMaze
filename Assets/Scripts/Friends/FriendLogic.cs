@@ -2,6 +2,9 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using Utils;
 
+/*
+ * This namespace represents the script's parent folder.
+ */
 namespace Friends {
 
     /**

@@ -1,10 +1,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-//! *** THIS SCRIPT IS NOT IMPLEMENTED *** //
-//! *** IT IS NOT NECESSARY TO BE VISIBLE *** //
-
+/*
+ * This namespace represents the script's parent folder.
+ */
 namespace Maps {
+
+    //! *** THIS SCRIPT IS NOT IMPLEMENTED *** //
+    //! *** IT IS NOT NECESSARY TO BE VISIBLE *** //
 
     /**
      * <summary>
