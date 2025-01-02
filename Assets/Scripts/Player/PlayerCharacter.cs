@@ -112,7 +112,7 @@ namespace Player {
             /*
              * Apply movement to the Rigidbody if it exists, otherwise directly adjust the transform position
              */
-            if(_rigideBody) _rigideBody.velocity = ((Vector3)_targetPosition - transform.position) / Time.fixedDeltaTime;
+            if(_rigideBody) _rigideBody.linearVelocity = ((Vector3)_targetPosition - transform.position) / Time.fixedDeltaTime;
             else transform.position = Vector2.SmoothDamp(transform.position, _targetPosition, ref _velocity, smoothing);
         }
 
